@@ -29,15 +29,16 @@
             &nbsp;
             <input type="checkbox" name="special" > Special Characters
             <br /><br />
-
+            <label for="generatedPassword" style="font-weight: bold;font-size: 2em;">Generated Password</label><br />
+            <input class="mt-1 p-2 display-4 text-center alert alert-primary" type="text" id="generatedPassword" name="generatedPassword" value="{{ password }}" >  
+            <br /><br />
             <input type="submit" value="GENERATE" class="btn btn-primary"/>
         </form>
     
-        <br /><br />
+        
 
 
-        <label for="generatedPassword" style="font-weight: bold;font-size: 2em;">Generated Password</label><br />
-        <input class="mt-1 p-2 display-4 text-center alert alert-primary" type="text" id="generatedPassword" name="generatedPassword" value="{{ password }}" >
+        
     </div>
     </body>
 </html>
