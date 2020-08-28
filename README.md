@@ -7,4 +7,6 @@ Simple Django based password generator
 
 <b>To create an Application :</b>
 <br/>
-<code>python manage.py startapp <application_name>  </code>
+<code>python manage.py startapp application_name</code>
+
+<b></b>

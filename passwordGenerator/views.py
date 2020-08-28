@@ -26,6 +26,7 @@ def password(request):
     for num in range(length):
         randomPassword += random.choice(characters)
 
-    return render(request , 'passwordGenerator/password.html',{'password':randomPassword})
+    ## return render(request , 'passwordGenerator/password.html',{'password':randomPassword})
+    return render(request , 'passwordGenerator/index.html',{'password':randomPassword})
 
 
