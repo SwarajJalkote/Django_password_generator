@@ -29,5 +29,3 @@ def password(request):
     return render(request , 'passwordGenerator/password.html',{'password':randomPassword})
 
 
-def aboutus(request):
-    return render(request , 'passwordGenerator/aboutus.html')
